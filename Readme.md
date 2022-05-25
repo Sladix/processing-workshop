@@ -6,6 +6,8 @@
 ## Les dossisers
 ### Template
 Un template basique comprenant un GUI facile d'accès avec quelques méthodes pré-implémentées
+### Intersection
+Une étude sur les intersections de lignes
 ### NoiseCircle
 Un projet d'example qui génère une forme radiale déformée par le perlin Noise
 ### Desronds
