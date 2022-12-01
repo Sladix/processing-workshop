@@ -11,4 +11,4 @@ Une étude sur les intersections de lignes
 ### NoiseCircle
 Un projet d'example qui génère une forme radiale déformée par le perlin Noise
 ### Desronds
-Un projet d'example dand lequel sont répétées des formes choisies aléatoirement de manière radiales
+Un projet d'example dans lequel sont répétées des formes choisies aléatoirement de manière radiales
