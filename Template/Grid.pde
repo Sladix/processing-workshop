@@ -20,11 +20,11 @@ class Grid {
     return cells[x][y];
   }
 
-  Cell setCell(int x, int y, int value) {
+  Cell setCell(int x, int y, float value) {
     return getCell(x, y).setValue(value);
   }
   
-  int getCellValue(int x, int y){
+  float getCellValue(int x, int y){
     return getCell(x, y).getValue();
   }
   
@@ -41,21 +41,21 @@ class Grid {
 }
 
 class Cell {
-  private int value = 0;
+  private float value = 0;
 
   Cell() {
   }
   
-  Cell(int _value) {
+  Cell(float _value) {
     value = _value;
   }
 
-  Cell setValue(int v) {
+  Cell setValue(float v) {
     value = v;
     return this;
   }
   
-  int getValue(){
+  float getValue(){
     return value;
   }
 }
